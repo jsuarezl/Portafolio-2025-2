@@ -1,0 +1,15 @@
+[project]
+name = "fanfic-scraper"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "hrequests>=0.9.2",
+    "pydantic>=2.11.7",
+    "selectolax>=0.3.33",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.12.10",
+]
