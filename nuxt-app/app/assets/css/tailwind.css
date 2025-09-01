@@ -1,0 +1,4 @@
+@import "tailwindcss/base";
+@import "./primevue/tailwind.css";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
